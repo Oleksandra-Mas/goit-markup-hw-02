@@ -1,0 +1,92 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --logo-primary-color: #000000;
+  --accent-color: #2196f3;
+  --text-white-color: #ffffff;
+  --light-address-color: rgba(255, 255, 255, 0.6);
+  --dark-accent-color: #2f303a;
+}
+body {
+  font-family: Roboto;
+}
+
+/*хедер*/
+/*лого*/
+.logo-webstudio {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--logo-primary-color);
+  text-decoration: none;
+}
+.studio-logo-part {
+  color: var(--accent-color);
+}
+
+/*навигация по сайту*/
+.nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--title-text-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+/*контактная информация*/
+.contacts-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--title-text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
+/*футер*/
+.light-logo-webstudio {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.light-studio-logo-part {
+  color: var(--text-white-color);
+}
+
+/*контактная информация*/
+.light-contacts-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--light-address-color);
+}
+
+.light-contacts-link:hover,
+.light-contacts-link:focus {
+  color: var(--accent-color);
+}
+.office-address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--light-address-color);
+}
+.footer-container {
+  background-color: var(--dark-accent-color);
+}
