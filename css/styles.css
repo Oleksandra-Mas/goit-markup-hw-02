@@ -127,6 +127,9 @@ body {
 .advantage-text {
   line-height: 1.7;
 }
+.advantages-title {
+  display: none;
+}
 /*Чем мы занимаемся*/
 .section-title {
   font-size: 36px;
@@ -174,4 +177,7 @@ body {
 .project-type {
   font-size: 16px;
   line-height: 1.88;
+}
+.projects-title {
+  display: none;
 }
