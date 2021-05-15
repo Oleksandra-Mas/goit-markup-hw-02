@@ -13,6 +13,7 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
   background-color: var(--main-white-color);
+  color: var(--primary-text-color);
 }
 .list {
   list-style: none;
@@ -106,8 +107,6 @@ body {
 }
 
 .btn-order-service {
-  width: 200px;
-  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -127,7 +126,6 @@ body {
 }
 .advantage-text {
   line-height: 1.7;
-  color: var(--primary-text-color);
 }
 /*Чем мы занимаемся*/
 .section-title {
@@ -144,9 +142,35 @@ body {
 .team-member-position {
   font-size: 16px;
   line-height: 1.19;
-  color: var(--primary-text-color);
 }
 
 .team-container {
   background-color: var(--grey-color);
+}
+
+/*портфолио*/
+/*фильтф*/
+.btn-filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  color: var(--title-text-color);
+  background-color: var(--grey-color);
+  cursor: pointer;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+  background-color: var(--accent-color);
+  color: var(--main-white-color);
+}
+.project-name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
 }
